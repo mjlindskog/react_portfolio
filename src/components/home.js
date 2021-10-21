@@ -1,13 +1,25 @@
 import React from 'react';
+import Box from "@mui/material/Box"
+import Typography from '@mui/material/Typography';
+
+import '@fontsource/roboto/300.css';
+import '@fontsource/roboto/400.css';
+import '@fontsource/roboto/500.css';
+import '@fontsource/roboto/700.css';
+
 import '../styles/home.css'
 
 export default function Home() {
   return (
-    <div className="mjl">
-      <h1 className="name">Mark J Lindskog</h1>
-      <p className="subheader">
-        Aspiring Full Stack Web Developer
-      </p>
+    <div>
+    <Box className="mjl" sx={{ display: "sticky", mt: 15, height: '90vh', width: '100%', justifyContent: 'center' }}>
+      <Typography className="name" variant="h2" align="center" sx={{ color: "white", fontWeight: "bolder", display: "block" }}>
+        MARK J LINDSKOG
+      </Typography>
+      <Typography className="subheader" variant="button" align="center" sx={{ color: "white", display: "block" }}>
+        Aspiring Developer
+      </Typography>
+    </Box>
     </div>
   );
 };

@@ -37,10 +37,6 @@
   }
 } */
 
-.App {
-  background-color: black;
-}
-
 .list-group {
   list-style: none;
   color: white;
@@ -57,4 +53,11 @@ a:hover {
 a:active {
   text-decoration: underline;
   color: darkorange;
+}
+
+.footer {
+  position: absolute;
+  display: block;
+  top: 94%;
+  width: 100%;
 }

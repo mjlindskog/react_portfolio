@@ -1,36 +1,48 @@
-import React, { useState } from 'react';
-import NavBar from './components/navbar';
-import Home from './components/home';
-import About from './components/about';
-import Project from './components/project';
-import Contact from './components/contact';
-// import Footer from './components/footer';
+import React from 'react';
+import FullWidthTabs from './components/navbar';
+
 import './App.css';
 
+import GitHubIcon from '@mui/icons-material/GitHub';
+import LinkedInIcon from '@mui/icons-material/LinkedIn';
+import Typography from '@mui/material/Typography';
+import Link from '@mui/material/Link';
+import Tooltip from '@mui/material/Tooltip';
+
+import '@fontsource/roboto/300.css';
+import '@fontsource/roboto/400.css';
+import '@fontsource/roboto/500.css';
+import '@fontsource/roboto/700.css';
+
+
+function Footer() {
+  return (
+    <Typography className="footer" variant="caption" align="center" color="white" sx={{ display: 'block' }}>
+      {'Copyright © '}
+      Mark Lindskog
+      {' '}{new Date().getFullYear()}.
+      {' '}
+      <Tooltip title="Github">
+        <Link href="https://github.com/mjlindskog">
+        <GitHubIcon fontSize="small" sx={{ color: "white" }}/>
+        </Link>
+      </Tooltip>
+      {' '}
+      <Tooltip title="LinkedIn">
+        <Link href="https://www.linkedin.com/in/mark-lindskog-2bb256186/">
+        <LinkedInIcon fontSize="small" sx={{ color: "white" }}/>
+        </Link>
+      </Tooltip>
+    </Typography>
+  );
+};
+
 function App() {
-  const [currentPage, setCurrentPage] = useState('Home');
-
-  const renderPage = () => {
-    if (currentPage === 'Contact') {
-      return <Contact />;
-    }
-    if (currentPage === 'About') {
-      return <About />;
-    }
-    if (currentPage === 'Project') {
-      return <Project />;
-    }
-    if (currentPage === 'Home') {
-      return <Home />;
-    }
-  };
-
-  const handlePageChange = (page) => setCurrentPage(page);
-
+  
   return (
     <div>
-      <NavBar currentPage={currentPage} handlePageChange={handlePageChange} />
-      {renderPage()}
+      <FullWidthTabs  />
+      <Footer />
     </div>
   );
 };
