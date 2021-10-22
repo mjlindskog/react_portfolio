@@ -1,27 +1,3 @@
-.about-me {
-  height: 100vh;
-  width: 100%;
-  position: relative;
-  text-align: center;
-}
-
-.about-header {
-  color: white;
-  text-shadow: 1px 1px 2px black;
-  font-size: 55px;
-  font-weight: bold;
-  text-align: center;
-  width: 100%;
-  position: absolute;
-  top: 15%;
-  text-transform: uppercase;
-}
-
-.about-content {
-  color: white;
-  font-size: 30px;
-  position: absolute;
-  width: 100%;
-  top: 35%;
+.about {
   text-shadow: 2px 2px 2px black;
 }

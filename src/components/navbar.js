@@ -65,10 +65,13 @@ export default function FullWidthTabs() {
           value={value}
           onChange={handleChange}
           textColor="white"
+          indicatorColor="white"
           variant="fullWidth"
           aria-label="full width tabs"
           centered
-          sx={{ indicatorColor: "white" }}
+          sx={{ textColor: "white", '&:active': {
+            textColor: 'black'
+          } }}
         >
           <Tab label="Home" {...a11yProps(0)} />
           <Tab label="About" {...a11yProps(1)} />
