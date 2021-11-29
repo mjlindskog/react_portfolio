@@ -91,10 +91,10 @@ export default function FullWidthTabs() {
           <About />
         </TabPanel>
         <TabPanel value={value} index={2} dir={theme.direction}>
-          Project
+          <Project />
         </TabPanel>
         <TabPanel value={value} index={3} dir={theme.direction}>
-          Contact
+          <Contact />
         </TabPanel>
       </SwipeableViews>
     </Box>

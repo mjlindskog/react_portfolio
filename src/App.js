@@ -44,7 +44,7 @@ function Footer() {
 function App() {
   
   return (
-    <div>
+    <div className="app">
       <FullWidthTabs  />
       <Footer />
     </div>
