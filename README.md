@@ -16,21 +16,21 @@
 
 **No installation process, view portfolio with URL below**
 
-https://mjlindskog.github.io/react_portfolio/
+[Portfolio](https://mjlindskog.github.io/react_portfolio/)
 
-![alt= Mark Lindskog's Portfolio with project examples, and contact links](./img/react_portfolio.png)
+![alt= Mark Lindskog's Portfolio with project examples, and contact links](./src/img/react_portfolio.png)
 
 ## Credits
 
-https://gist.github.com/lukas-h/2a5d00690736b4c3a7ba
+[Badges](https://gist.github.com/lukas-h/2a5d00690736b4c3a7ba)
 
-https://coding-boot-camp.github.io/full-stack/github/professional-readme-guide
+[README Guide](https://coding-boot-camp.github.io/full-stack/github/professional-readme-guide)
 
-https://getbootstrap.com/docs/5.0/getting-started/introduction/
+[MUI Library](https://mui.com/getting-started/usage/)
 
-https://reactjs.org/docs/introducing-jsx.html
+[React](https://reactjs.org/docs/introducing-jsx.html)
 
-https://unsplash.com/photos/EdhmOmzBdoI
+[Background image](https://unsplash.com/photos/EdhmOmzBdoI)
 
 ## License
 
