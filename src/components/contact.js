@@ -1,37 +1,48 @@
 import React, { useState } from 'react';
-import { validateEmail } from '../utils/helpers';
+
 import '../styles/contact.css';
 
+import Resume from '../img/resume_screenshot.png';
+
+import PDF from '../docs/Resume_Fall21.pdf'
+
+import Button from '@mui/material/Button';
+import Stack from '@mui/material/Stack';
+import Box from '@mui/material/Box';
+import Container from '@mui/material/Container';
+
+import DownloadIcon from '@mui/icons-material/Download';
+import SendIcon from '@mui/icons-material/Send';
+
+import '@fontsource/roboto/300.css';
+import '@fontsource/roboto/400.css';
+import '@fontsource/roboto/500.css';
+import '@fontsource/roboto/700.css';
+
+import { saveAs } from "file-saver";
+
 export default function Contact() {
-    const [errorMessage, setErrorMessage] = useState('');
-    const [emailForm, setEmailForm] = useState({ email:'', subject:'', content:'' });
-
-    const { email, subject, content } = emailForm
-
-    function handleChange(event) {
-        if (event.target.name === 'email') {
-            const isValid = validateEmail(event.target.value);
+    const saveFile = () => {
+        saveAs(
+          {PDF}
+        );
+    };
     
-                if(!isValid) {
-                    setErrorMessage('please enter a valid email');
-                } else {
-                    setErrorMessage('');
-                }
-
-            } else {
-                if (!event.target.value.length) {
-                  setErrorMessage(`${event.target.name} is required.`);
-                } else {
-                  setErrorMessage('');
-                } 
-        }
-
-        if (!errorMessage) {
-        setEmailForm({...emailForm, [event.target.name]: event.target.value })
-        }
-    }
-
-    function handleSubmit(event) {
-        event.preventDefault();
-    }
+    return (
+        <Container>
+            <Stack direction="row" spacing={2} sx={{ display: "relative", mt: 6, width: '100%', justifyContent: 'center'}}>
+                <Button fixed align="center" variant="contained" href="mailto:lindskogmarkj@gmail.com" target="_blank" rel="noopener" color="secondary" size="large" startIcon={<SendIcon />} sx={{ color: "white" }}>
+                Email
+                </Button>
+                <Button href={PDF} download fixed align="center" variant="contained" target="_blank" rel="noopener" color="secondary" size="large" startIcon={<DownloadIcon />} sx={{ color: "white" }} >
+                Resume
+                </Button>
+            </Stack>
+            <Box sx={{ display: 'relative', justifyContent: 'center', my: 5, width: '100%' }}>
+                <img src={Resume} alt="screenshot of resume"></img>
+            </Box>
+        </Container>
+        
+    )
 };
+

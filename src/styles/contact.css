@@ -1,3 +1,23 @@
 * {
   font: bold;
 }
+
+img {
+  box-shadow: 5px 5px 5px black;
+  display: block;
+  justify-content: center;
+  align-self: center;
+  margin: auto;
+}
+
+.resume {
+  color: white;
+  outline: none;
+  text-decoration: none;
+}
+
+a:hover {
+  color: white;
+  outline: none;
+  text-decoration: none;
+}
