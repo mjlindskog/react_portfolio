@@ -16,7 +16,7 @@
 
 **No installation process, view portfolio with URL below**
 
-https://mjlindskog.github.io/professional_portfolio/
+https://mjlindskog.github.io/react_portfolio/
 
 ![alt= Mark Lindskog's Portfolio with project examples, and contact links](./img/react_portfolio.png)
 
