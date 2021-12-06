@@ -1,10 +1,8 @@
 ![alt= Mark Lindskog's Portfolio with project examples, and contact links](./src/img/react_portfolio.png)
 
-# React Portfolio
+# [Portfolio](https://mjlindskog.github.io/react_portfolio/)
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-
-[Portfolio](https://mjlindskog.github.io/react_portfolio/)
 
 ## Description
 
