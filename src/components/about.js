@@ -17,7 +17,7 @@ export default function About() {
   return (
     <Container sx={{ display: "relative", mt: 20, height: '50vh', width: '100%', justifyContent: 'center' }}>
       <Typography className="about" variant='h6' align="center" sx={{ color: "white", fontWeight: "bolder", display: "block", px: 5 }}>
-        Recent graduate of the Ohio State Unviersity Full Stack coding bootcamp. In 2019 recieved a B.A. in History from Ohio University. After holding a various positions in sales and business development, have established strong communication skills. Had an interest in learning coding skills since I was a teenager with avid initerest in video games and their development process. 
+        Transitioning inside sales executive who recently earned a certificate in full stack development from the Ohio State University Coding Bootcamp with a desire to continue learning about meaningful technologies and be a team player utilizing communication and problem solving skills. Now possessing skills around Javascript, React.js, Node.js, HTML and CSS.
       </Typography>
       <Container fixed align="center" sx={{ width: '100%', justifyContent: 'center', display: 'sticky', opacity: '0.5', p: 5 }}>
         <FontAwesomeIcon icon={["fab", "html5"]} size="5x" color="black"/>
