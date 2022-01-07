@@ -1,16 +1,12 @@
 import React, { useState } from 'react';
-
 import '../styles/contact.css';
-
 import Resume from '../img/resume_screenshot.png';
-
-import PDF from '../docs/Resume_Fall21.pdf'
+import PDF from '../docs/Resume.pdf'
 
 import Button from '@mui/material/Button';
 import Stack from '@mui/material/Stack';
 import Box from '@mui/material/Box';
 import Container from '@mui/material/Container';
-
 import DownloadIcon from '@mui/icons-material/Download';
 import SendIcon from '@mui/icons-material/Send';
 
@@ -19,15 +15,8 @@ import '@fontsource/roboto/400.css';
 import '@fontsource/roboto/500.css';
 import '@fontsource/roboto/700.css';
 
-import { saveAs } from "file-saver";
-
 export default function Contact() {
-    const saveFile = () => {
-        saveAs(
-          {PDF}
-        );
-    };
-    
+
     return (
         <Container>
             <Stack direction="row" spacing={2} sx={{ display: "relative", mt: 6, width: '100%', justifyContent: 'center'}}>
