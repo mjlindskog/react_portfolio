@@ -8,6 +8,7 @@ img {
   justify-content: center;
   align-self: center;
   margin: auto;
+  
 }
 
 .resume {
@@ -20,4 +21,10 @@ a:hover {
   color: white;
   outline: none;
   text-decoration: none;
+}
+
+@media screen and (max-width: 790px) {
+  img {
+    width: 100%
+  }
 }

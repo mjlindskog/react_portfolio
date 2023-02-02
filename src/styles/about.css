@@ -1,3 +1,9 @@
 .about {
   text-shadow: 2px 2px 2px black;
 }
+
+@media screen and (max-width: 790px) {
+  img {
+    margin-top: 5px;
+  }
+}
