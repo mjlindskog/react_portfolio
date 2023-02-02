@@ -17,7 +17,7 @@ export default function Home() {
         MARK J LINDSKOG
       </Typography>
       <Typography className="subheader" variant="button" align="center" sx={{ color: "white", display: "block" }}>
-        Aspiring Developer
+        Software QA Engineer
       </Typography>
     </Box>
     </div>
