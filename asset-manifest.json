@@ -1,11 +1,11 @@
 {
   "files": {
     "main.css": "/react_portfolio/static/css/main.6826cc09.css",
-    "main.js": "/react_portfolio/static/js/main.bea9a457.js",
+    "main.js": "/react_portfolio/static/js/main.620f5c8d.js",
     "static/js/787.4048b011.chunk.js": "/react_portfolio/static/js/787.4048b011.chunk.js",
     "static/media/book.png": "/react_portfolio/static/media/book.b2d71246411c08393bef.png",
     "static/media/blue.png": "/react_portfolio/static/media/blue.418807c75d17f45526b6.png",
-    "static/media/resume_screenshot.png": "/react_portfolio/static/media/resume_screenshot.bdea5e45a37a783f2013.png",
+    "static/media/resume_screenshot.png": "/react_portfolio/static/media/resume_screenshot.fd7bfcb09887d373b12a.png",
     "static/media/fitness.png": "/react_portfolio/static/media/fitness.a594a5f6332a8eb2c5e6.png",
     "static/media/Scriber.png": "/react_portfolio/static/media/Scriber.808e634c0210996dea92.png",
     "static/media/ADAH.png": "/react_portfolio/static/media/ADAH.b5ea9f6f4263dd2d1107.png",
@@ -13,7 +13,7 @@
     "static/media/roboto-all-700-normal.woff": "/react_portfolio/static/media/roboto-all-700-normal.a457fde362a540fcadff.woff",
     "static/media/roboto-all-400-normal.woff": "/react_portfolio/static/media/roboto-all-400-normal.c5d001fa922fa66a147f.woff",
     "static/media/roboto-all-300-normal.woff": "/react_portfolio/static/media/roboto-all-300-normal.168d6383e73339293ac3.woff",
-    "static/media/Resume.pdf": "/react_portfolio/static/media/Resume.342aaa1153f505741ba1.pdf",
+    "static/media/Resume.pdf": "/react_portfolio/static/media/Resume.8715e72c667df01b3172.pdf",
     "static/media/node-sequelize.png": "/react_portfolio/static/media/node-sequelize.625a40a940e28bdf7333.png",
     "static/media/roboto-latin-500-normal.woff2": "/react_portfolio/static/media/roboto-latin-500-normal.f25d774ecfe0996f8eb5.woff2",
     "static/media/roboto-latin-700-normal.woff2": "/react_portfolio/static/media/roboto-latin-700-normal.227c93190fe7f82de3f8.woff2",
@@ -45,11 +45,11 @@
     "static/media/roboto-greek-ext-700-normal.woff2": "/react_portfolio/static/media/roboto-greek-ext-700-normal.bd9854c751441ccc1a70.woff2",
     "index.html": "/react_portfolio/index.html",
     "main.6826cc09.css.map": "/react_portfolio/static/css/main.6826cc09.css.map",
-    "main.bea9a457.js.map": "/react_portfolio/static/js/main.bea9a457.js.map",
+    "main.620f5c8d.js.map": "/react_portfolio/static/js/main.620f5c8d.js.map",
     "787.4048b011.chunk.js.map": "/react_portfolio/static/js/787.4048b011.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.6826cc09.css",
-    "static/js/main.bea9a457.js"
+    "static/js/main.620f5c8d.js"
   ]
 }
