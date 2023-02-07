@@ -20,10 +20,10 @@ export default function Contact() {
     return (
         <Container>
             <Stack direction="row" spacing={2} sx={{ display: "relative", mt: 6, width: '100%', justifyContent: 'center'}}>
-                <Button fixed align="center" variant="contained" href="mailto:lindskogmarkj@gmail.com" target="_blank" rel="noopener" color="secondary" size="large" startIcon={<SendIcon />} sx={{ color: "white" }}>
+                <Button fixed align="center" variant="contained" href="mailto:lindskogmarkj@gmail.com" target="_blank" rel="noopener" color="secondary" size="large" startIcon={<SendIcon />} sx={{ color: "white", '&:hover': { color: '#99ddff' } }}>
                 Email
                 </Button>
-                <Button href={PDF} download fixed align="center" variant="contained" target="_blank" rel="noopener" color="secondary" size="large" startIcon={<DownloadIcon />} sx={{ color: "white" }} >
+                <Button href={PDF} download fixed align="center" variant="contained" target="_blank" rel="noopener" color="secondary" size="large" startIcon={<DownloadIcon />} sx={{ color: "white", '&:hover': { color: '#99ddff' } }} >
                 Resume
                 </Button>
             </Stack>

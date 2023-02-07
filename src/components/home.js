@@ -12,7 +12,7 @@ import '../styles/home.css'
 export default function Home() {
   return (
     <div>
-    <Box className="mjl" sx={{ display: "sticky", height: '50vh', mt: 20, width: '100%', justifyContent: 'center' }}>
+    <Box className="mjl" sx={{ display: "sticky", height: 'auto', mt: 20, width: '100%', justifyContent: 'center' }}>
       <Typography className="name" variant="h2" align="center" sx={{ color: "white", fontWeight: "bolder", display: "block" }}>
         MARK J LINDSKOG
       </Typography>

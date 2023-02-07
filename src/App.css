@@ -37,6 +37,10 @@
   }
 } */
 
+:root {
+  --dark-blue: #031741;
+}
+
 .list-group {
   list-style: none;
   color: white;
@@ -55,10 +59,17 @@ a:active {
   color: darkorange;
 }
 
-.footer {
-  position: relative;
+.footer_box {
+  position: sticky;
   display: block;
-  bottom: 5%;
-  width: 100%;
-  padding: 10px;
+  bottom: 0;
+  width: 100;
+  padding: 1.5vh;
+}
+
+.footer{
+  background-color: #989898;
+  padding: 1.3vh;
+  border-radius: 20px;
+  box-shadow: 0px 1px 3px black;
 }

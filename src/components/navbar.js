@@ -13,6 +13,8 @@ import About from './about';
 import Project from './project';
 import Contact from './contact';
 
+import '../styles/navbar.css';
+
 function TabPanel(props) {
   const { children, value, index, ...other } = props;
 
@@ -59,24 +61,22 @@ export default function FullWidthTabs() {
   };
 
   return (
-    <Box sx={{ flexGrow: 1 }}>
+    <Box className="nav_bar" sx={{ position:'relative', flexGrow: 1 }}>
       <AppBar position="static" sx={{ background: "transparent", boxShadow: 0, mt: 1 }} >
         <Tabs
           value={value}
           onChange={handleChange}
-          textColor="white"
-          indicatorColor="white"
+          textColor='#ffffff'
+          indicatorColor='#ffffff'
           variant="fullWidth"
           aria-label="full width tabs"
           centered
-          sx={{ textColor: "white", '&:active': {
-            textColor: 'black'
-          } }}
+          sx={{ color:'#ffffff' }}
         >
-          <Tab label="Home" {...a11yProps(0)} />
-          <Tab label="About" {...a11yProps(1)} />
-          <Tab label="Projects" {...a11yProps(2)} />
-          <Tab label="Contact" {...a11yProps(3)} />
+          <Tab sx={{ '&:hover': { color: '#99ddff' } }} label="Home" {...a11yProps(0)} />
+          <Tab sx={{ '&:hover': { color: '#99ddff' } }} label="About" {...a11yProps(1)} />
+          <Tab sx={{ '&:hover': { color: '#99ddff' } }} label="Projects" {...a11yProps(2)} />
+          <Tab sx={{ '&:hover': { color: '#99ddff' } }} label="Contact" {...a11yProps(3)} />
         </Tabs>
       </AppBar>
       <SwipeableViews

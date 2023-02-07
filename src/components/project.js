@@ -17,11 +17,10 @@ import '../styles/project.css';
 
 export default function Project() {
     return (
-        <Container display="flex" sx={{ display: 'flex', flexWrap: 'wrap', justifyContent: 'center' }}>
+        <Container display="flex" sx={{ display: 'flex', flexWrap: 'wrap', justifyContent: 'center', mb: 5 }}>
             {/* project 1 */}
-            <Card className="cards" sx={{ color: 'white', maxWidth: 345, m: 2, backgroundColor: 'transparent', boxShadow: '-8px 4px 8px black', '&:hover': {
-                boxShadow: '-8px 4px 8px rgb(54, 109, 192)',
-                opacity: [0.9, 0.8, 0.7],
+            <Card className="cards" sx={{ color: 'white', maxWidth: 345, m: 2, backgroundColor: '#081842', boxShadow: '-8px 4px 8px black', '&:hover': {
+                boxShadow: '-8px 4px 8px #99ddff'
             }, }}>
                 <CardActionArea>
                     <CardMedia
@@ -32,7 +31,7 @@ export default function Project() {
                     />
                     <CardContent>
                     <Typography gutterBottom variant="h5" component="div">
-                        <Link href="https://powerful-shore-38656.herokuapp.com/" underline="none" target="_blank" rel="noopener">Scriber</Link>
+                        <Link href="https://powerful-shore-38656.herokuapp.com/" underline="none" target="_blank" rel="noopener" sx={{ color:'white', '&:hover': { color: '#99ddff' } }}>Scriber</Link>
                     </Typography>
                     <Typography variant="body2">
                     Single page app using React, Node.js MongoDB, MUI, Redis, Express, Apollo GraphQL, and React Speech Kit
@@ -40,16 +39,15 @@ export default function Project() {
                     </CardContent>
                 </CardActionArea>
                 <CardActions>
-                    <Button size="small" color="primary" target="_blank" rel="noopener" href="https://github.com/mjlindskog/scriber">
+                    <Button size="small" color="primary" target="_blank" rel="noopener" href="https://github.com/mjlindskog/scriber" sx={{ color:'white', '&:hover': { color: '#99ddff' } }}>
                         Repository
                     </Button>
                 </CardActions>
             </Card>
             {' '}
             {/* project 2 */}
-            <Card className="card" sx={{ color: 'white', maxWidth: 345, m: 2, backgroundColor: 'transparent', boxShadow: '-8px 4px 8px black', '&:hover': {
-                boxShadow: '-8px 4px 8px rgb(54, 109, 192)',
-                opacity: [0.9, 0.8, 0.7],
+            <Card className="card" sx={{ color: 'white', maxWidth: 345, m: 2, backgroundColor: '#081842', boxShadow: '-8px 4px 8px black', '&:hover': {
+                boxShadow: '-8px 4px 8px #99ddff'
             }, }}>
                 <CardActionArea>
                     <CardMedia
@@ -60,7 +58,7 @@ export default function Project() {
                     />
                     <CardContent>
                     <Typography gutterBottom variant="h5" component="div">
-                        <Link href="https://mjlindskog.github.io/ADAH_Brewery_Search/" underline="none" target="_blank" rel="noopener">A Drink Around Here</Link>
+                        <Link href="https://mjlindskog.github.io/ADAH_Brewery_Search/" underline="none" target="_blank" rel="noopener" sx={{ color:'white', '&:hover': { color: '#99ddff' } }}>A Drink Around Here</Link>
                     </Typography>
                     <Typography variant="body2">
                     Front end Javascript app using Foundation, Leaflet, jQuery. Utilizing three APIs - OpenBreweryDb, Ticketmaster, and OpenWeather.
@@ -68,16 +66,15 @@ export default function Project() {
                     </CardContent>
                 </CardActionArea>
                 <CardActions>
-                    <Button size="small" color="primary" target="_blank" rel="noopener" href="https://github.com/mjlindskog/ADAH_Brewery_Search">
+                    <Button size="small" color="primary" target="_blank" rel="noopener" href="https://github.com/mjlindskog/ADAH_Brewery_Search" sx={{ color:'white', '&:hover': { color: '#99ddff' } }}>
                     Repository
                     </Button>
                 </CardActions>
             </Card>
 
             {/* project 3 */}
-            <Card className="card" sx={{ color: 'white', maxWidth: 345, m: 2, backgroundColor: 'transparent', boxShadow: '-8px 4px 8px black', '&:hover': {
-                boxShadow: '-8px 4px 8px rgb(54, 109, 192)',
-                opacity: [0.9, 0.8, 0.7],
+            <Card className="card" sx={{ color: 'white', maxWidth: 345, m: 2, backgroundColor: '#081842', boxShadow: '-8px 4px 8px black', '&:hover': {
+                boxShadow: '-8px 4px 8px #99ddff'
             }, }}>
                 <CardActionArea>
                     <CardMedia
@@ -88,7 +85,7 @@ export default function Project() {
                     />
                     <CardContent>
                     <Typography gutterBottom variant="h5" component="div">
-                        <Link href="https://quiet-wave-94756.herokuapp.com/" underline="none" target="_blank" rel="noopener">Book Search Engine</Link>
+                        <Link href="https://quiet-wave-94756.herokuapp.com/" underline="none" target="_blank" rel="noopener" sx={{ color:'white', '&:hover': { color: '#99ddff' } }}>Book Search Engine</Link>
                     </Typography>
                     <Typography variant="body2">
                     Single page app using React, MongoDB, Node.js, Express, Apollo GraphQL, Bootstrap, Json web token and Google Books API.
@@ -96,7 +93,7 @@ export default function Project() {
                     </CardContent>
                 </CardActionArea>
                 <CardActions>
-                    <Button size="small" color="primary" target="_blank" rel="noopener" href="https://github.com/mjlindskog/MERN.book_search_engine">
+                    <Button size="small" color="primary" target="_blank" rel="noopener" href="https://github.com/mjlindskog/MERN.book_search_engine" sx={{ color:'white', '&:hover': { color: '#99ddff' } }}>
                     Repository
                     </Button>
                 </CardActions>
@@ -104,8 +101,7 @@ export default function Project() {
 
             {/* project 4 */}
             {/* <Card className="card" sx={{ color: 'white', maxWidth: 345, m: 2, backgroundColor: 'transparent', boxShadow: '-8px 4px 8px black', '&:hover': {
-                boxShadow: '-8px 4px 8px rgb(54, 109, 192)',
-                opacity: [0.9, 0.8, 0.7],
+                boxShadow: '-8px 4px 8px rgb(54, 109, 192)'
             }, }}>
                 <CardActionArea>
                     <CardMedia
@@ -132,9 +128,8 @@ export default function Project() {
             </Card> */}
 
             {/* project 5 */}
-            <Card className="card" sx={{ color: 'white', maxWidth: 345, m: 2, backgroundColor: 'transparent', boxShadow: '-8px 4px 8px black', '&:hover': {
-                boxShadow: '-8px 4px 8px rgb(54, 109, 192)',
-                opacity: [0.9, 0.8, 0.7],
+            <Card className="card" sx={{ color: 'white', maxWidth: 345, m: 2, backgroundColor: '#081842', boxShadow: '-8px 4px 8px black', '&:hover': {
+                boxShadow: '-8px 4px 8px #99ddff'
             }, }}>
                 <CardActionArea>
                     <CardMedia
@@ -145,7 +140,7 @@ export default function Project() {
                     />
                     <CardContent>
                     <Typography gutterBottom variant="h5" component="div">
-                        <Link href="https://ancient-beyond-44323.herokuapp.com/" underline="none" target="_blank" rel="noopener">Fitness Tracker</Link>
+                        <Link href="https://ancient-beyond-44323.herokuapp.com/" underline="none" target="_blank" rel="noopener" sx={{ color:'white', '&:hover': { color: '#99ddff' } }}>Fitness Tracker</Link>
                     </Typography>
                     <Typography variant="body2">
                     App utilizing Node.js, Express, MongoDB, Morgan, and Sematic UI.
@@ -153,16 +148,15 @@ export default function Project() {
                     </CardContent>
                 </CardActionArea>
                 <CardActions>
-                    <Button size="small" color="primary" target="_blank" rel="noopener" href="https://github.com/mjlindskog/fitness_tracker">
+                    <Button size="small" color="primary" target="_blank" rel="noopener" href="https://github.com/mjlindskog/fitness_tracker" sx={{ color:'white', '&:hover': { color: '#99ddff' } }}>
                     Repository
                     </Button>
                 </CardActions>
             </Card>
 
             {/* project 6 */}
-            <Card className="card" sx={{ color: 'white', maxWidth: 345, m: 2, backgroundColor: 'transparent', boxShadow: '-8px 4px 8px black', '&:hover': {
-                boxShadow: '-8px 4px 8px rgb(54, 109, 192)',
-                opacity: [0.9, 0.8, 0.7],
+            <Card className="card" sx={{ color: 'white', maxWidth: 345, m: 2, backgroundColor: '#081842', boxShadow: '-8px 4px 8px black', '&:hover': {
+                boxShadow: '-8px 4px 8px #99ddff'
             }, }}>
                 <CardActionArea>
                     <CardMedia
@@ -173,7 +167,7 @@ export default function Project() {
                     />
                     <CardContent>
                     <Typography gutterBottom variant="h5" component="div">
-                        <Link href="https://drive.google.com/file/d/1kaFApNCiDofmTd8P1qBojlPTC-LV5abE/view" underline="none" target="_blank" rel="noopener">ORM e-commerce back end</Link>
+                        <Link href="https://drive.google.com/file/d/1kaFApNCiDofmTd8P1qBojlPTC-LV5abE/view" underline="none" target="_blank" rel="noopener" sx={{ color:'white', '&:hover': { color: '#99ddff' } }}>ORM e-commerce back end</Link>
                     </Typography>
                     <Typography variant="body2">
                     Back end ORM app tested trhough Insomnia Core, Utilizing Node.js, Express and MySQL.
@@ -181,7 +175,7 @@ export default function Project() {
                     </CardContent>
                 </CardActionArea>
                 <CardActions>
-                    <Button size="small" color="primary" target="_blank" href="https://github.com/mjlindskog/ORM-_e-commerce">
+                    <Button size="small" color="primary" target="_blank" href="https://github.com/mjlindskog/ORM-_e-commerce" sx={{ color:'white', '&:hover': { color: '#99ddff' } }}>
                     Repository
                     </Button>
                 </CardActions>
