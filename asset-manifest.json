@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/react_portfolio/static/css/main.21de424e.css",
-    "main.js": "/react_portfolio/static/js/main.620f5c8d.js",
+    "main.css": "/react_portfolio/static/css/main.bcb49b2f.css",
+    "main.js": "/react_portfolio/static/js/main.e12a2b6e.js",
     "static/js/787.4048b011.chunk.js": "/react_portfolio/static/js/787.4048b011.chunk.js",
     "static/media/book.png": "/react_portfolio/static/media/book.b2d71246411c08393bef.png",
     "static/media/blue.png": "/react_portfolio/static/media/blue.418807c75d17f45526b6.png",
@@ -44,12 +44,12 @@
     "static/media/roboto-greek-ext-300-normal.woff2": "/react_portfolio/static/media/roboto-greek-ext-300-normal.35b9d6be04b95f0f0530.woff2",
     "static/media/roboto-greek-ext-700-normal.woff2": "/react_portfolio/static/media/roboto-greek-ext-700-normal.bd9854c751441ccc1a70.woff2",
     "index.html": "/react_portfolio/index.html",
-    "main.21de424e.css.map": "/react_portfolio/static/css/main.21de424e.css.map",
-    "main.620f5c8d.js.map": "/react_portfolio/static/js/main.620f5c8d.js.map",
+    "main.bcb49b2f.css.map": "/react_portfolio/static/css/main.bcb49b2f.css.map",
+    "main.e12a2b6e.js.map": "/react_portfolio/static/js/main.e12a2b6e.js.map",
     "787.4048b011.chunk.js.map": "/react_portfolio/static/js/787.4048b011.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.21de424e.css",
-    "static/js/main.620f5c8d.js"
+    "static/css/main.bcb49b2f.css",
+    "static/js/main.e12a2b6e.js"
   ]
 }
