@@ -39,7 +39,7 @@ library.add(fab);
 
 function Footer() {
   return (
-    <Box align="center" className="footer_box" sx={{ position: 'fixed', bottom: 0, left: 0, right: 0 }}>
+    <Box align="center" className="footer_box" sx={{ position: 'fixed', bottom: 0, left: 0, right: 0}}>
       <Typography className="footer" variant="caption" color="white">
       {'Copyright © '}
       Mark Lindskog

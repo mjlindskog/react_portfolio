@@ -76,7 +76,7 @@ export default function FullWidthTabs() {
           <Tab sx={{ '&:hover': { color: '#99ddff' } }} label="Home" {...a11yProps(0)} />
           <Tab sx={{ '&:hover': { color: '#99ddff' } }} label="About" {...a11yProps(1)} />
           <Tab sx={{ '&:hover': { color: '#99ddff' } }} label="Projects" {...a11yProps(2)} />
-          <Tab sx={{ '&:hover': { color: '#99ddff' } }} label="Contact" {...a11yProps(3)} />
+          <Tab sx={{ color: "#5FB3D7",'&:hover': { color: '#99ddff' } }} label="Contact" {...a11yProps(3)} />
         </Tabs>
       </AppBar>
       <SwipeableViews
