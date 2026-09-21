@@ -1,30 +1,52 @@
-![alt= Mark Lindskog's Portfolio with project examples, and contact links](./src/img/react_portfolio.png)
+# Mark Lindskog — Portfolio
 
-# [Portfolio](https://mjlindskog.github.io/react_portfolio/)
+[View the live portfolio](https://mjlindskog.github.io/react_portfolio/)
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+![Mark Lindskog portfolio homepage](./src/img/portfolio-preview.png)
 
-## Description
+## About
 
-- Check out some of my work and feel free to get in touch with me
+A responsive, single-page portfolio highlighting my current work, background,
+and resume. The featured project is
+[Toochooz](https://toochooz.com), a mobile app that helps couples decide what
+to eat by matching their restaurant and recipe choices.
 
-## Credits
+## Features
 
-[Badges](https://gist.github.com/lukas-h/2a5d00690736b4c3a7ba)
+- Animated, responsive single-page design
+- Featured Toochooz mobile app with App Store and Google Play links
+- Expandable archive of earlier development projects
+- Embedded current resume with PDF download
+- Accessible reduced-motion support
 
-[README Guide](https://coding-boot-camp.github.io/full-stack/github/professional-readme-guide)
+## Built With
 
-[MUI Library](https://mui.com/getting-started/usage/)
+- React
+- CSS
+- Font Awesome
+- GitHub Pages
 
-[React](https://reactjs.org/docs/introducing-jsx.html)
+## Run Locally
 
-[Background image](https://unsplash.com/photos/EdhmOmzBdoI)
+```bash
+npm install
+npm start
+```
+
+Open `http://localhost:3000/react_portfolio`.
+
+## Build and Deploy
+
+```bash
+npm run build
+npm run deploy
+```
 
 ## License
 
 MIT License
 
-Copyright (c) 2021 Mark Lindskog
+Copyright (c) 2026 Mark Lindskog
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
