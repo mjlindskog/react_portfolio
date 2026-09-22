@@ -1,6 +1,6 @@
 # Mark Lindskog — Portfolio
 
-[View the live portfolio](https://mjlindskog.github.io/react_portfolio/)
+[View the live portfolio](https://mjlindskog.github.io/portfolio/)
 
 ![Mark Lindskog portfolio homepage](./src/img/portfolio-preview.png)
 
@@ -33,7 +33,7 @@ npm install
 npm start
 ```
 
-Open `http://localhost:3000/react_portfolio`.
+Open `http://localhost:3000/portfolio`.
 
 ## Build and Deploy
 

@@ -137,7 +137,7 @@ function App() {
             <FontAwesomeIcon icon={faGithub} />
           </a>
           <a
-            href="https://www.linkedin.com/in/mark-lindskog-2bb256186/"
+            href="https://www.linkedin.com/in/mark-j-l/"
             target="_blank"
             rel="noreferrer"
             aria-label="LinkedIn"
@@ -418,7 +418,7 @@ function App() {
             GitHub
           </a>
           <a
-            href="https://www.linkedin.com/in/mark-lindskog-2bb256186/"
+            href="https://www.linkedin.com/in/mark-j-l/"
             target="_blank"
             rel="noreferrer"
           >
